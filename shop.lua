@@ -1,6 +1,6 @@
-local chest = peripheral.wrap("right") --EChest
-local config = peripheral.wrap("top")
-local supply = peripheral.wrap("back") --ME system
+local chest = peripheral.wrap("right") --Transaction chest (EChest)
+local config = peripheral.wrap("top") --Configuration chest
+local supply = peripheral.wrap("back") --Supply chest
 --Left: Pay Output
 
 local function ReadBuyButton()
